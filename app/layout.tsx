@@ -11,7 +11,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "Fund2Farm",
-  description: "The Funding Platform for Farmers.",
+  description: "The Lending Platform for Farmers.",
   icons:{
     icon: '/icons/logo.svg'
   }
