@@ -17,11 +17,11 @@ const Sidebar = ({user}: SiderbarProps) => {
             <Link href='/' 
             className='flex mb-12 cursor-pointer item-center gap-2'>
                 <Image 
-                    src="/icons/logo.svg"
+                    src="/icons/F2F_logo.svg"
                     width={34}
                     height={34}
                     alt="Fund2Farm logo"
-                    className="size-[24px] max-xl:size-14"
+                    className="size-[50px] max-xl:size-14"
                 />
                 <h1 className="sidebar-logo">Fund2Farm</h1>
             </Link>
