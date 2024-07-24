@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Fund2Farm",
   description: "The Lending Platform for Farmers.",
   icons:{
-    icon: '/icons/logo.svg'
+    icon: '/icons/F2F_logo_header.svg'
   }
 };
 

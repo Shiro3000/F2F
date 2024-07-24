@@ -6,6 +6,7 @@ import { sidebarLinks } from "@/constants"
 import { cn } from "@/lib/utils"
 import { usePathname } from "next/navigation"
 import { Island_Moments } from "next/font/google"
+import Footer from "./Footer"
 
 
 const Sidebar = ({user}: SiderbarProps) => {
@@ -15,15 +16,15 @@ const Sidebar = ({user}: SiderbarProps) => {
     <section className='sidebar'>
         <nav className='flex flex-col gap-4'>
             <Link href='/' 
-            className='flex mb-12 cursor-pointer item-center gap-2'>
+            className='flex mb-5 cursor-pointer item-center'>
                 <Image 
                     src="/icons/F2F_logo.svg"
-                    width={34}
-                    height={34}
+                    width={100}
+                    height={200}
                     alt="Fund2Farm logo"
-                    className="size-[50px] max-xl:size-14"
+                    className="h-[100px] w-[200px]"
                 />
-                <h1 className="sidebar-logo">Fund2Farm</h1>
+                
             </Link>
 
             {sidebarLinks.map((item)=> {
@@ -51,7 +52,7 @@ const Sidebar = ({user}: SiderbarProps) => {
             USER
         </nav>
 
-        FOOTER
+        <Footer user={user} type={"desktop"}/>
     </section>
   )
 }

@@ -11,6 +11,75 @@ export const sidebarLinks = [
   },
 ];
 
+export const farmerMock = [
+  {
+    firstName: 'Natthaphon',
+    lastName: 'Samutjaroen',
+    province: 'Chiang Mai',
+    age: 34,
+    postalCode: '50200',
+    annualIncome: 1200000,
+    interestRate: 5.5,
+    lendAmount: 200000,
+    plant: 'Rice',
+    rating: 'AAA', // Very good
+    imageURL: '/icons/farmer_men.png'
+  },
+  {
+    firstName: 'Sirinpah',
+    lastName: 'Chanthasri',
+    province: 'Nakhon Ratchasima',
+    age: 29,
+    postalCode: '30000',
+    annualIncome: 900000,
+    interestRate: 6.0,
+    lendAmount: 150000,
+    plant: 'Corn',
+    rating: 'AA', // Good
+    imageURL: '/icons/farmer_women.png'
+  },
+  {
+    firstName: 'Pakorn',
+    lastName: 'Thongsiri',
+    province: 'Surat Thani',
+    age: 45,
+    postalCode: '84000',
+    annualIncome: 700000,
+    interestRate: 6.5,
+    lendAmount: 100000,
+    plant: 'Sugarcane',
+    rating: 'BBB', // Average
+    imageURL: '/icons/farmer_men.png'
+  },
+  {
+    firstName: 'Nathaya',
+    lastName: 'Jaroensuk',
+    province: 'Phetchaburi',
+    age: 39,
+    postalCode: '76000',
+    annualIncome: 500000,
+    interestRate: 7.0,
+    lendAmount: 80000,
+    plant: 'Coconut',
+    rating: 'BB', // Below average
+    imageURL: '/icons/farmer_women.png'
+  },
+  {
+    firstName: 'Thanaphum',
+    lastName: 'Wichan',
+    province: 'Ubon Ratchathani',
+    age: 52,
+    postalCode: '34000',
+    annualIncome: 300000,
+    interestRate: 8.0,
+    lendAmount: 50000,
+    plant: 'Cassava',
+    rating: 'D', // Very bad
+    imageURL: '/icons/farmer_men.png'
+  }
+];
+
+
 // good_user / good_password - Bank of America
 export const TEST_USER_ID = "6627ed3d00267aa6fa3e";
 
