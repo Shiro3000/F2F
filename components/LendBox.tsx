@@ -1,11 +1,17 @@
+'use client'
+
 import Image from 'next/image';
-import React from 'react'
+import React, { useState } from 'react'
+import { Button } from './ui/button';
+
+const mrr = 6.98;
+const surInr = 0.75;
 
 const formatNumber = (number: number) => {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
   }
 
-  const getRating = (rating: string) => {
+const getRating = (rating: string) => {
     switch (rating) {
       case 'AAA':
         return { textColor: 'text-green-700', bgColor: 'bg-green-100' }; // Very good
@@ -30,15 +36,46 @@ const formatNumber = (number: number) => {
     }
   }
 
+  const getInterest = (rating: string) => {
+    switch (rating) {
+      case 'AAA':
+        return mrr+(1*surInr);
+      case 'AA':
+        return mrr+(2*surInr);
+      case 'A':
+        return mrr+(3*surInr);
+      case 'BBB':
+        return mrr+(4*surInr);
+      case 'BB':
+        return mrr+(5*surInr);
+      case 'B':
+        return mrr+(6*surInr);
+      case 'CC':
+        return mrr+(7*surInr);
+      case 'C':
+        return mrr+(8*surInr);
+      case 'D':
+        return mrr+(9*surInr);
+      default:
+        return mrr;
+    }
+  }
+
 const LendBox = ({
-    firstName, lastName, province, age, postalCode, annualIncome, interestRate, lendAmount, plant, rating, imageURL
+    firstName, lastName, province, age, postalCode, annualIncome, lendAmount, plant, rating, imageURL, exp
 }: LendBoxProps) => {
+    const [showDetails, setShowDetails] = useState(false);
     const { textColor, bgColor } = getRating(rating);
     const formattedAnnualIncome = formatNumber(annualIncome);
     const formattedLendAmount = formatNumber(lendAmount);
+    const interestRate = getInterest(rating);
+    
+    const toggleDetails = () => {
+        setShowDetails(prevState => !prevState);
+    }
 
   return (
-    <section className='total-balance'>
+    <section className='total-balance cursor-pointer' onClick={toggleDetails}>
         <div className='flex flex-col gap-6'>
             <div className= 'lend-name'>
                 <Image 
@@ -46,7 +83,7 @@ const LendBox = ({
                     width={50}
                     height={50}
                     alt={firstName}
-                    className="h-[95px] w-[95px]"
+                    className="h-[90px] w-[90px]"
                 />
             </div>
         </div>
@@ -71,6 +108,12 @@ const LendBox = ({
                             &nbsp;{age}
                         </span>
                     </h2>
+                    <h4 className='text-12 text-gray-600 font-semibold'>
+                        Year of Experience:
+                        <span className='text-12 text-gray-600 font-normal'>
+                            &nbsp;{exp}
+                        </span>
+                    </h4>
                     <h3 className='text-12 text-gray-600 font-semibold'>
                         Province:
                         <span className='text-12 text-gray-600 font-normal'>
@@ -105,6 +148,9 @@ const LendBox = ({
                     </h4>
                 </div>
             </div>
+            {showDetails && (
+                <Button className='form-btn mt-5'>Contact Farmer</Button>
+            )}
         </section>
         <div className='flex flex-col gap-6'>
             <div className= {`flex size-20 items-center ${bgColor} justify-center rounded-full`}>

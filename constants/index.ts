@@ -23,7 +23,8 @@ export const farmerMock = [
     lendAmount: 200000,
     plant: 'Rice',
     rating: 'AAA', // Very good
-    imageURL: '/icons/farmer_men.png'
+    imageURL: '/icons/farmer_men.png',
+    exp: 2,
   },
   {
     firstName: 'Sirinpah',
@@ -36,7 +37,8 @@ export const farmerMock = [
     lendAmount: 150000,
     plant: 'Corn',
     rating: 'AA', // Good
-    imageURL: '/icons/farmer_women.png'
+    imageURL: '/icons/farmer_women.png',
+    exp: 5,
   },
   {
     firstName: 'Pakorn',
@@ -49,7 +51,8 @@ export const farmerMock = [
     lendAmount: 100000,
     plant: 'Sugarcane',
     rating: 'BBB', // Average
-    imageURL: '/icons/farmer_men.png'
+    imageURL: '/icons/farmer_men.png',
+    exp: 20,
   },
   {
     firstName: 'Nathaya',
@@ -62,7 +65,8 @@ export const farmerMock = [
     lendAmount: 80000,
     plant: 'Coconut',
     rating: 'BB', // Below average
-    imageURL: '/icons/farmer_women.png'
+    imageURL: '/icons/farmer_women.png',
+    exp: 12,
   },
   {
     firstName: 'Thanaphum',
@@ -75,7 +79,8 @@ export const farmerMock = [
     lendAmount: 50000,
     plant: 'Cassava',
     rating: 'D', // Very bad
-    imageURL: '/icons/farmer_men.png'
+    imageURL: '/icons/farmer_men.png',
+    exp: 23,
   }
 ];
 

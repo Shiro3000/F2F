@@ -1,10 +1,13 @@
 import HeaderBox from '@/components/HeaderBox'
 import TotalBalanceBox from '@/components/TotalBalanceBox';
+import { Button } from '@/components/ui/button';
+import WeatherSideBar from '@/components/WeatherSideBar';
 import { getLoggedInUser } from '@/lib/actions/user.actions';
-import React from 'react'
+import React, { useState } from 'react'
 
 const Home = async () => {
   const loggedIn = await getLoggedInUser();
+  const type = 'farmer';
 
   return (
     <section className='home'>
@@ -18,14 +21,15 @@ const Home = async () => {
           />
 
           <TotalBalanceBox 
+            type = {type}
             accounts={[]}
-            totalBanks={1}
-            totalCurrentBalance={1250.00}
-          />
+            totalBanks={loggedIn?.name.split(' ')[0]}
+            totalCurrentBalance={100000.00}
+            />
         </header>
-
-        RECENT TRANSACTIONS
+        <Button className='form-btn mt-2'>Apply for Loan</Button>
       </div>
+      <WeatherSideBar />
     </section>
   )
 }

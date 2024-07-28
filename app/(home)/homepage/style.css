@@ -14,7 +14,7 @@ html {
   background-color: #ffffff;
   overflow: hidden;
   width: 1440px;
-  height: 6406px;
+  height: 8933px;
   position: relative;
 }
 
@@ -24,7 +24,7 @@ html {
   height: 887px;
   top: 77px;
   left: 0;
-  background-image: url(/img/image-1.png);
+  background-image: url('/img/image-1.png');
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -78,6 +78,7 @@ html {
   left: 0;
   background-color: #4fcca3;
   border-radius: 10px;
+  transition: all 0.2s ease;
 }
 
 .desktop .text-wrapper-2 {
@@ -238,6 +239,7 @@ html {
   border-radius: 40px;
   border: 1px solid;
   border-color: #ffffff;
+  transition: all 0.2s ease;
 }
 
 .desktop .frame-6 {
@@ -270,7 +272,7 @@ html {
   position: absolute;
   width: 986px;
   height: 237px;
-  top: 1080px;
+  top: 1114px;
   left: 243px;
 }
 
@@ -398,18 +400,26 @@ html {
   position: absolute;
   width: 1213px;
   height: 520px;
-  top: 1433px;
+  top: 1501px;
   left: 131px;
 }
 
-.desktop .text-wrapper-12 {
-  top: 125px;
+.desktop .overlap-group-2 {
+  position: absolute;
+  width: 588px;
+  height: 161px;
+  top: 110px;
   left: 599px;
+}
+
+.desktop .text-wrapper-12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Outfit", Helvetica;
   font-weight: 600;
   color: #4fcca3;
-  font-size: 18px;
-  position: absolute;
-  font-family: "Outfit", Helvetica;
+  font-size: 36px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -417,8 +427,8 @@ html {
 .desktop .text-wrapper-13 {
   position: absolute;
   width: 588px;
-  top: 166px;
-  left: 599px;
+  top: 41px;
+  left: 0;
   font-family: "Outfit", Helvetica;
   font-weight: 600;
   color: #000000;
@@ -436,10 +446,10 @@ html {
   object-fit: cover;
 }
 
-.desktop .every-investment {
+.desktop .text-wrapper-14 {
   position: absolute;
   width: 608px;
-  top: 304px;
+  top: 289px;
   left: 599px;
   font-family: "Outfit", Helvetica;
   font-weight: 300;
@@ -449,15 +459,71 @@ html {
   line-height: 23.7px;
 }
 
-.desktop .group-5 {
+.desktop .group-wrapper {
   position: absolute;
-  width: 1123px;
-  height: 679px;
-  top: 2106px;
-  left: 174px;
+  width: 1440px;
+  height: 666px;
+  top: 2098px;
+  left: 0;
+  background-image: url('/img/rectangle-3.svg');
+  background-size: 100% 100%;
+}
+
+.desktop .group-5 {
+  position: relative;
+  width: 1202px;
+  height: 520px;
+  top: 73px;
+  left: 122px;
+}
+
+.desktop .image-6 {
+  position: absolute;
+  width: 457px;
+  height: 520px;
+  top: 0;
+  left: 739px;
+  object-fit: cover;
 }
 
 .desktop .overlap-2 {
+  position: absolute;
+  width: 588px;
+  height: 161px;
+  top: 110px;
+  left: 0;
+}
+
+.desktop .text-wrapper-15 {
+  position: absolute;
+  width: 608px;
+  top: 289px;
+  left: 0;
+  font-family: "Outfit", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 23.7px;
+}
+
+.desktop .overlap-3 {
+  position: absolute;
+  width: 1123px;
+  height: 683px;
+  top: 2837px;
+  left: 173px;
+}
+
+.desktop .group-6 {
+  position: absolute;
+  width: 1123px;
+  height: 679px;
+  top: 4px;
+  left: 0;
+}
+
+.desktop .overlap-4 {
   position: absolute;
   width: 1093px;
   height: 503px;
@@ -465,7 +531,7 @@ html {
   left: 0;
 }
 
-.desktop .text-wrapper-14 {
+.desktop .text-wrapper-16 {
   position: absolute;
   width: 232px;
   top: 96px;
@@ -479,7 +545,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-15 {
+.desktop .text-wrapper-17 {
   position: absolute;
   width: 263px;
   top: 134px;
@@ -493,7 +559,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-16 {
+.desktop .text-wrapper-18 {
   position: absolute;
   width: 232px;
   top: 96px;
@@ -507,7 +573,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-17 {
+.desktop .text-wrapper-19 {
   position: absolute;
   width: 263px;
   top: 134px;
@@ -530,7 +596,7 @@ html {
   object-fit: cover;
 }
 
-.desktop .text-wrapper-18 {
+.desktop .text-wrapper-20 {
   position: absolute;
   width: 232px;
   top: 96px;
@@ -544,7 +610,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-19 {
+.desktop .text-wrapper-21 {
   position: absolute;
   width: 263px;
   top: 134px;
@@ -576,7 +642,7 @@ html {
   object-fit: cover;
 }
 
-.desktop .text-wrapper-20 {
+.desktop .text-wrapper-22 {
   position: absolute;
   width: 232px;
   top: 386px;
@@ -590,7 +656,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-21 {
+.desktop .text-wrapper-23 {
   position: absolute;
   width: 263px;
   top: 424px;
@@ -604,7 +670,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-22 {
+.desktop .text-wrapper-24 {
   position: absolute;
   width: 232px;
   top: 386px;
@@ -618,7 +684,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-23 {
+.desktop .text-wrapper-25 {
   position: absolute;
   width: 263px;
   top: 424px;
@@ -641,7 +707,7 @@ html {
   object-fit: cover;
 }
 
-.desktop .text-wrapper-24 {
+.desktop .text-wrapper-26 {
   position: absolute;
   width: 232px;
   top: 386px;
@@ -655,7 +721,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-25 {
+.desktop .text-wrapper-27 {
   position: absolute;
   width: 263px;
   top: 424px;
@@ -687,7 +753,7 @@ html {
   object-fit: cover;
 }
 
-.desktop .overlap-group-2 {
+.desktop .overlap-5 {
   position: absolute;
   width: 1093px;
   height: 503px;
@@ -722,7 +788,7 @@ html {
   object-fit: cover;
 }
 
-.desktop .text-wrapper-26 {
+.desktop .text-wrapper-28 {
   position: absolute;
   width: 679px;
   top: 98px;
@@ -736,7 +802,7 @@ html {
   line-height: 18.9px;
 }
 
-.desktop .overlap-3 {
+.desktop .overlap-6 {
   position: absolute;
   width: 704px;
   height: 60px;
@@ -744,7 +810,7 @@ html {
   left: 194px;
 }
 
-.desktop .text-wrapper-27 {
+.desktop .text-wrapper-29 {
   position: absolute;
   width: 704px;
   top: 0;
@@ -758,11 +824,19 @@ html {
   line-height: normal;
 }
 
-.desktop .group-wrapper {
+.desktop .screenshot-2 {
+  position: absolute;
+  width: 296px;
+  height: 79px;
+  top: 0;
+  left: 524px;
+}
+
+.desktop .overlap-7 {
   position: absolute;
   width: 1440px;
   height: 1080px;
-  top: 2855px;
+  top: 5382px;
   left: 0;
   background-color: #4fcca326;
 }
@@ -775,13 +849,13 @@ html {
   left: 112px;
 }
 
-.desktop .overlap-4 {
+.desktop .overlap-8 {
   position: relative;
   width: 1206px;
   height: 844px;
 }
 
-.desktop .overlap-5 {
+.desktop .overlap-9 {
   position: absolute;
   width: 1206px;
   height: 816px;
@@ -789,7 +863,7 @@ html {
   left: 0;
 }
 
-.desktop .overlap-6 {
+.desktop .overlap-10 {
   position: absolute;
   width: 1097px;
   height: 772px;
@@ -797,7 +871,7 @@ html {
   left: 109px;
 }
 
-.desktop .text-wrapper-28 {
+.desktop .text-wrapper-30 {
   position: absolute;
   width: 704px;
   top: 0;
@@ -810,7 +884,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-29 {
+.desktop .text-wrapper-31 {
   position: absolute;
   width: 704px;
   top: 59px;
@@ -823,7 +897,7 @@ html {
   line-height: normal;
 }
 
-.desktop .image-6 {
+.desktop .image-7 {
   position: absolute;
   width: 527px;
   height: 733px;
@@ -832,7 +906,7 @@ html {
   object-fit: cover;
 }
 
-.desktop .text-wrapper-30 {
+.desktop .text-wrapper-32 {
   position: absolute;
   width: 679px;
   top: 143px;
@@ -846,7 +920,7 @@ html {
   line-height: 18.9px;
 }
 
-.desktop .overlap-7 {
+.desktop .overlap-11 {
   position: absolute;
   width: 70px;
   height: 606px;
@@ -967,7 +1041,7 @@ html {
   object-fit: cover;
 }
 
-.desktop .text-wrapper-31 {
+.desktop .text-wrapper-33 {
   position: absolute;
   width: 232px;
   top: 210px;
@@ -980,7 +1054,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-32 {
+.desktop .text-wrapper-34 {
   position: absolute;
   width: 381px;
   top: 248px;
@@ -993,7 +1067,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-33 {
+.desktop .text-wrapper-35 {
   position: absolute;
   width: 261px;
   top: 344px;
@@ -1006,7 +1080,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-34 {
+.desktop .text-wrapper-36 {
   position: absolute;
   width: 381px;
   top: 382px;
@@ -1019,7 +1093,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-35 {
+.desktop .text-wrapper-37 {
   position: absolute;
   width: 232px;
   top: 478px;
@@ -1032,7 +1106,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-36 {
+.desktop .text-wrapper-38 {
   position: absolute;
   width: 381px;
   top: 516px;
@@ -1045,7 +1119,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-37 {
+.desktop .text-wrapper-39 {
   width: 232px;
   top: 612px;
   left: 215px;
@@ -1058,7 +1132,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-38 {
+.desktop .text-wrapper-40 {
   position: absolute;
   width: 381px;
   top: 650px;
@@ -1071,7 +1145,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-39 {
+.desktop .text-wrapper-41 {
   position: absolute;
   width: 261px;
   top: 746px;
@@ -1084,7 +1158,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-40 {
+.desktop .text-wrapper-42 {
   position: absolute;
   width: 381px;
   top: 784px;
@@ -1097,15 +1171,15 @@ html {
   line-height: normal;
 }
 
-.desktop .group-6 {
+.desktop .group-7 {
   position: absolute;
   width: 1366px;
   height: 862px;
-  top: 4076px;
+  top: 6603px;
   left: 183px;
 }
 
-.desktop .image-7 {
+.desktop .image-8 {
   position: absolute;
   width: 527px;
   height: 733px;
@@ -1114,7 +1188,7 @@ html {
   object-fit: cover;
 }
 
-.desktop .text-wrapper-41 {
+.desktop .text-wrapper-43 {
   width: 704px;
   top: 0;
   left: 636px;
@@ -1127,7 +1201,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-42 {
+.desktop .text-wrapper-44 {
   position: absolute;
   width: 704px;
   top: 59px;
@@ -1140,7 +1214,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-43 {
+.desktop .text-wrapper-45 {
   position: absolute;
   width: 511px;
   top: 146px;
@@ -1153,7 +1227,7 @@ html {
   line-height: 18.9px;
 }
 
-.desktop .overlap-8 {
+.desktop .overlap-12 {
   position: absolute;
   width: 70px;
   height: 606px;
@@ -1188,7 +1262,7 @@ html {
   object-fit: cover;
 }
 
-.desktop .text-wrapper-44 {
+.desktop .text-wrapper-46 {
   position: absolute;
   width: 232px;
   top: 228px;
@@ -1201,7 +1275,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-45 {
+.desktop .text-wrapper-47 {
   position: absolute;
   width: 381px;
   top: 266px;
@@ -1214,7 +1288,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-46 {
+.desktop .text-wrapper-48 {
   position: absolute;
   width: 261px;
   top: 362px;
@@ -1227,7 +1301,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-47 {
+.desktop .text-wrapper-49 {
   position: absolute;
   width: 381px;
   top: 400px;
@@ -1240,7 +1314,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-48 {
+.desktop .text-wrapper-50 {
   position: absolute;
   width: 232px;
   top: 496px;
@@ -1253,7 +1327,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-49 {
+.desktop .text-wrapper-51 {
   position: absolute;
   width: 381px;
   top: 534px;
@@ -1266,7 +1340,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-50 {
+.desktop .text-wrapper-52 {
   position: absolute;
   width: 232px;
   top: 630px;
@@ -1279,7 +1353,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-51 {
+.desktop .text-wrapper-53 {
   position: absolute;
   width: 381px;
   top: 668px;
@@ -1292,7 +1366,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-52 {
+.desktop .text-wrapper-54 {
   width: 261px;
   top: 764px;
   left: 742px;
@@ -1305,7 +1379,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-53 {
+.desktop .text-wrapper-55 {
   position: absolute;
   width: 381px;
   top: 802px;
@@ -1318,11 +1392,11 @@ html {
   line-height: normal;
 }
 
-.desktop .overlap-9 {
+.desktop .overlap-13 {
   position: absolute;
   width: 1202px;
   height: 588px;
-  top: 5062px;
+  top: 7589px;
   left: 122px;
 }
 
@@ -1344,13 +1418,13 @@ html {
   left: 101px;
 }
 
-.desktop .overlap-10 {
+.desktop .overlap-14 {
   position: relative;
   width: 1095px;
   height: 522px;
 }
 
-.desktop .overlap-11 {
+.desktop .overlap-15 {
   position: absolute;
   width: 1095px;
   height: 522px;
@@ -1358,7 +1432,7 @@ html {
   left: 0;
 }
 
-.desktop .image-8 {
+.desktop .image-9 {
   position: absolute;
   width: 593px;
   height: 522px;
@@ -1366,7 +1440,7 @@ html {
   left: 502px;
 }
 
-.desktop .text-wrapper-54 {
+.desktop .join-today {
   position: absolute;
   width: 704px;
   top: 98px;
@@ -1407,9 +1481,10 @@ html {
   left: 0;
   background-color: #ffffff;
   border-radius: 10px;
+  transition: all 0.2s ease;
 }
 
-.desktop .text-wrapper-55 {
+.desktop .text-wrapper-56 {
   position: relative;
   width: fit-content;
   font-family: "Outfit", Helvetica;
@@ -1421,7 +1496,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-56 {
+.desktop .text-wrapper-57 {
   position: absolute;
   top: 385px;
   left: 214px;
@@ -1434,11 +1509,40 @@ html {
   line-height: normal;
 }
 
-.desktop .overlap-12 {
+.desktop .group-8 {
+  position: absolute;
+  width: 295px;
+  height: 229px;
+  top: 42px;
+  left: 125px;
+}
+
+.desktop .overlap-16 {
+  position: relative;
+  height: 229px;
+}
+
+.desktop .screenshot-3 {
+  position: absolute;
+  width: 110px;
+  height: 229px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .output {
+  position: absolute;
+  width: 186px;
+  height: 31px;
+  top: 100px;
+  left: 109px;
+}
+
+.desktop .overlap-17 {
   position: absolute;
   width: 1440px;
   height: 635px;
-  top: 5771px;
+  top: 8298px;
   left: 0;
 }
 
@@ -1451,7 +1555,7 @@ html {
   left: 0;
 }
 
-.desktop .text-wrapper-57 {
+.desktop .text-wrapper-58 {
   position: absolute;
   top: 155px;
   left: 123px;
@@ -1464,7 +1568,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-58 {
+.desktop .text-wrapper-59 {
   position: absolute;
   width: 704px;
   top: 75px;
@@ -1477,7 +1581,7 @@ html {
   line-height: normal;
 }
 
-.desktop .group-7 {
+.desktop .group-9 {
   position: absolute;
   width: 1024px;
   height: 40px;
@@ -1485,7 +1589,7 @@ html {
   left: 214px;
 }
 
-.desktop .text-wrapper-59 {
+.desktop .text-wrapper-60 {
   position: absolute;
   top: 0;
   left: 68px;
@@ -1498,7 +1602,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-60 {
+.desktop .text-wrapper-61 {
   position: absolute;
   top: 20px;
   left: 68px;
@@ -1530,20 +1634,20 @@ html {
   object-fit: cover;
 }
 
-.desktop .text-wrapper-61 {
+.desktop .text-wrapper-62 {
   top: 0;
   left: 485px;
   font-weight: 400;
   color: var(--color-paletpure-white);
   font-size: 16px;
-  text-align: center;
   position: absolute;
   font-family: "Outfit", Helvetica;
+  text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.desktop .text-wrapper-62 {
+.desktop .text-wrapper-63 {
   position: absolute;
   top: 20px;
   left: 485px;
@@ -1566,7 +1670,7 @@ html {
   border-radius: 20px;
 }
 
-.desktop .text-wrapper-63 {
+.desktop .text-wrapper-64 {
   top: 0;
   left: 894px;
   font-size: 16px;
@@ -1579,7 +1683,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-64 {
+.desktop .text-wrapper-65 {
   position: absolute;
   top: 20px;
   left: 894px;
@@ -1592,7 +1696,7 @@ html {
   line-height: normal;
 }
 
-.desktop .overlap-13 {
+.desktop .overlap-18 {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -1611,7 +1715,7 @@ html {
   left: 0;
 }
 
-.desktop .group-8 {
+.desktop .group-10 {
   position: absolute;
   width: 614px;
   height: 96px;
@@ -1619,7 +1723,7 @@ html {
   left: 414px;
 }
 
-.desktop .text-wrapper-65 {
+.desktop .text-wrapper-66 {
   position: absolute;
   top: 0;
   left: 178px;
@@ -1632,7 +1736,7 @@ html {
   line-height: normal;
 }
 
-.desktop .group-9 {
+.desktop .group-11 {
   position: absolute;
   width: 612px;
   height: 35px;
@@ -1640,7 +1744,7 @@ html {
   left: 0;
 }
 
-.desktop .group-10 {
+.desktop .group-12 {
   position: absolute;
   width: 479px;
   height: 35px;
@@ -1648,7 +1752,7 @@ html {
   left: 0;
 }
 
-.desktop .text-wrapper-66 {
+.desktop .text-wrapper-67 {
   position: absolute;
   width: 35px;
   top: 10px;
@@ -1661,7 +1765,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-67 {
+.desktop .text-wrapper-68 {
   width: 73px;
   top: 10px;
   left: 400px;
@@ -1674,7 +1778,7 @@ html {
   line-height: normal;
 }
 
-.desktop .text-wrapper-68 {
+.desktop .text-wrapper-69 {
   width: 90px;
   top: 10px;
   left: 283px;
@@ -1711,7 +1815,7 @@ html {
   margin-right: -2.23px;
 }
 
-.desktop .text-wrapper-69 {
+.desktop .text-wrapper-70 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -1745,7 +1849,7 @@ html {
   object-fit: cover;
 }
 
-.desktop .image-9 {
+.desktop .image-10 {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -1769,5 +1873,220 @@ html {
   height: 20px;
   top: 11px;
   left: 592px;
+  object-fit: cover;
+}
+
+.desktop .overlap-19 {
+  position: absolute;
+  width: 456px;
+  height: 110px;
+  top: 3671px;
+  left: 132px;
+}
+
+.desktop .text-wrapper-71 {
+  position: absolute;
+  width: 456px;
+  top: 10px;
+  left: 0;
+  font-family: "Outfit", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .screenshot-4 {
+  position: absolute;
+  width: 296px;
+  height: 79px;
+  top: 0;
+  left: 160px;
+}
+
+.desktop .text-wrapper-72 {
+  width: 583px;
+  top: 4974px;
+  left: -1px;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+  position: absolute;
+  font-family: "Outfit", Helvetica;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-73 {
+  position: absolute;
+  width: 452px;
+  top: 3795px;
+  left: 136px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .nantawan-chief {
+  position: absolute;
+  width: 344px;
+  top: 4013px;
+  left: 631px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .span {
+  font-weight: 600;
+}
+
+.desktop .text-wrapper-74 {
+  font-weight: 300;
+}
+
+.desktop .padsawut-chief {
+  position: absolute;
+  width: 345px;
+  top: 4013px;
+  left: 996px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .IMG {
+  top: 3686px;
+  left: 631px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.desktop .IMG-2 {
+  top: 3686px;
+  left: 996px;
+  object-fit: cover;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.desktop .napat-chief-design {
+  position: absolute;
+  width: 345px;
+  top: 4424px;
+  left: 631px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .dhakorn-chief {
+  position: absolute;
+  width: 345px;
+  top: 4840px;
+  left: 631px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .thanaphot-chief {
+  position: absolute;
+  width: 345px;
+  top: 4424px;
+  left: 996px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .IMG-3 {
+  top: 4092px;
+  left: 631px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.desktop .IMG-4 {
+  top: 4092px;
+  left: 996px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.desktop .IMG-5 {
+  top: 4508px;
+  left: 631px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+
+.desktop .image-11 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 5103px;
+  left: 157px;
+  object-fit: cover;
+}
+
+.desktop .image-12 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 5103px;
+  left: 401px;
+  object-fit: cover;
+}
+
+.desktop .image-13 {
+  position: absolute;
+  width: 150px;
+  height: 52px;
+  top: 5152px;
+  left: 645px;
+  object-fit: cover;
+}
+
+.desktop .image-14 {
+  position: absolute;
+  width: 150px;
+  height: 149px;
+  top: 5104px;
+  left: 889px;
+  object-fit: cover;
+}
+
+.desktop .image-15 {
+  position: absolute;
+  width: 150px;
+  height: 154px;
+  top: 5101px;
+  left: 1133px;
   object-fit: cover;
 }

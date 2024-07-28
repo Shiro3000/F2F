@@ -203,6 +203,7 @@ declare interface BankTabItemProps {
 }
 
 declare interface TotlaBalanceBoxProps {
+  type: string;
   accounts: Account[];
   totalBanks: number;
   totalCurrentBalance: number;
@@ -341,4 +342,5 @@ declare interface LendBoxProps {
   interestRate: number;
   rating: string;
   imageURL: string;
+  exp: number;
 }
