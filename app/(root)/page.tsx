@@ -3,11 +3,19 @@ import TotalBalanceBox from '@/components/TotalBalanceBox';
 import { Button } from '@/components/ui/button';
 import WeatherSideBar from '@/components/WeatherSideBar';
 import { getLoggedInUser } from '@/lib/actions/user.actions';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Home = async () => {
   const loggedIn = await getLoggedInUser();
   const type = 'farmer';
+  useEffect(() => {
+    const hasRefreshed = sessionStorage.getItem('hasRefreshed');
+
+    if (!hasRefreshed) {
+      sessionStorage.setItem('hasRefreshed', 'true');
+      window.location.reload();
+    }
+  }, []);
 
   return (
     <section className='home'>
